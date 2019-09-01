@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.7.RELEASE'
+	compile group: 'mysql', name: 'mysql-connector-java', version: '5.0.4'
+    
+}
+
+repositories {
+    mavenCentral()
+}
